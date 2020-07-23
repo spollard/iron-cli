@@ -174,7 +174,7 @@ The following configuration options are supported in `config.json`:
 Use `iron mup` to run Meteor Up commands. To create a `mup.json` file for an environment run:
 
 ```sh
-iron mup <environment> --init
+$ iron mup <environment> --init
 ```
 
 **IMPORTANT**
@@ -185,16 +185,16 @@ Your `mup.json` file must contain `"enableUploadProgressBar": false` to work wit
 After [configuring](https://github.com/arunoda/meteor-up/#example-file) `mup.json`, the server can be bootstrapped with a single command:
 
 ```sh
-iron mup <environment> --setup
+$ iron mup <environment> --setup
 ```
 
 #### Deploy to Meteor Up Environment
-```
-  'iron mup development' //deploy to development environment
-  'iron mup dev' // shortcut for development
-  'iron mup production'
-  'iron mup prod'
-  'iron mup <custom-from-config>'
+```sh
+$ iron mup development //deploy to development environment
+$ iron mup dev // shortcut for development
+$ iron mup production
+$ iron mup prod
+$ iron mup <custom-from-config>
 ```
 
 ### Deploy Your Application on Heroku
@@ -216,7 +216,7 @@ Contributions and ideas are welcome.
 ## Tests
 To run tests
 ```sh
-npm test
+$ npm test
 ```
 
 ## License
